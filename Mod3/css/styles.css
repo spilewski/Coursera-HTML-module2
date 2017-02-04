@@ -1,0 +1,50 @@
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 25px;
+  line-height: 25px;
+  color: white;
+}
+
+#nav-list hr{
+  margin: 0px;
+}
+#nav-list li{
+  font-size: 18px;
+  color: #5E6472;
+  padding-left: 15px;
+}
+/** MAIN BODY **/
+h2 {
+  color: #FC7753;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+#main-content{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#home-tile h3{
+  padding-top: 15px;
+}
+#home-tile #inner{
+  padding-left:15px;
+  padding-right:15px;
+  background-color: #AED9E0;
+  color: #5E6472;
+}
+.col-xs-12{
+  margin-bottom: 15px;
+}
+/********** Extra small devices only **********/
+@media (max-width: 768px) {
+  /* Collapsable nav*/
+  #collapsable-nav {
+    background-color: #D7DBDD;
+  }
